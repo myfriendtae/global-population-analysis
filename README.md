@@ -19,3 +19,8 @@ I created a reference model from the combined table, and named 'DIM-region' and 
 
 ### Storing Data
 By disabling load, it creates larger free memory space, so I have disabled all tables apart from the Population-Combined, DIM and FACT tables.
+
+## Data modeling
+I could connect three data tables: two DIM tables and one FACT table as shown in the picture. There are three aspects to consider when establishing the relationship between tables. They are cardinarlity, cross filter direction and active properties.
+
+I can also use the embedded languages like M-Lanaguage and DAX-Language to add new columns. The project has a limited use of those languages, but I created the 'Calendar' table, and added columes using the 'calendar' function written in DAX-Language.
