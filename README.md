@@ -1,7 +1,5 @@
 # Population Analysis with MS Power BI
 
-This page shows my project that analyses data by using Microsoft(MS) Power BI.
-
 Power BI Desktop consists of the three parts: data preparation (query editor), data modeling (relationship view and data view) and data visualisation (report view). The project will cover all of the aspects provided by MS Power BI.
 
 ## Data Preparation
