@@ -26,7 +26,7 @@ Connecting two DIM tables and one FACT table as shown in the picture, there are 
 ![image2](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot2.png?raw=true)
 
 ## Visualisation
-Here below is the examples of the visulalisation.
+Here below are the examples of visulalisation created via MS Power BI.
 
 ![image3](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot3.png?raw=true)
 
