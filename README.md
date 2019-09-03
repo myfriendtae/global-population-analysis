@@ -1,4 +1,4 @@
-# Population Analysis with MS Power BI
+# Global Population Analysis with MS Power BI
 
 Power BI Desktop consists of the three parts: data preparation (query editor), data modeling (relationship view and data view) and data visualisation (report view). The project will cover all of the aspects provided by MS Power BI.
 
@@ -26,7 +26,7 @@ Connecting two DIM tables and one FACT table as shown in the picture, there are 
 ![image2](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot2.png?raw=true)
 
 ## Visualisation
-Here below are the examples of visulalisation created via MS Power BI.
+Here below are the examples of visulalisation that I have created via MS Power BI.
 
 ![image3](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot3.png?raw=true)
 
