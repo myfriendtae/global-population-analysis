@@ -21,19 +21,23 @@ Having a better oganisation of data table is crucial to analyse data efficiently
 By disabling load, it creates larger free memory space, so I have disabled all tables apart from the Population-Combined, DIM and FACT tables.
 
 ## Data modeling
-Connecting two DIM tables and one FACT table as shown in the picture, there are three aspects to consider: cardinarlity, cross filter direction and active properties.
+Connecting two DIM tables and one FACT table as shown in the picture, there are three aspects to consider: cardinarlity, cross filter direction and active properties. With Data Analysis Expressions(DAX), I also created columns and measures which can be useful for visualisation.
 
 ![image2](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot2.png?raw=true)
 
 ## Visualisation
 Here below are the examples of visulalisation that I have created via MS Power BI.
 
+### Relationships
 ![image3](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot3.png?raw=true)
 
+### Overview
 ![image4](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot4.png?raw=true)
 
+### Regions & Age Groups
 ![image5](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot5.png?raw=true)
 
+### Cards & More
 ![image6](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot6.png?raw=true)
 
 
