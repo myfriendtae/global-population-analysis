@@ -1,6 +1,6 @@
 # Global Population Analysis with MS Power BI
 
-Power BI Desktop consists of the three parts: data preparation (query editor), data modeling (relationship view and data view) and data visualisation (report view). The project will cover all of the aspects provided by MS Power BI.
+Power BI Desktop consists of the three parts: data preparation (query editor), data modeling (relationship view and data view) and data visualisation (report view). The project will cover some aspects provided by MS Power BI.
 
 ## Data Preparation
 ### Cleaning Data
@@ -13,12 +13,12 @@ After loading those files, I cleaned the data by deleting NA or blank rows, sett
 
 ### Star Schema
 
-Having a better oganisation of data table is crucial to analyse data efficiently. The project will turn the combined data structure into a star schema (from a fact table to dim tables). It is imortant to understand the differnce between duplicates and reference, as it affects the performance of computation. From the combined table I created reference models, the 'Regions-Fullnames'and 'DIM-AgeGroup' table.
+Having a better oganisation of data table is crucial to analyse data efficiently. This project will change the combined data structure into a star schema (from a fact table to dim tables). Having duplicates and references affects the performance of computation. Using the combined table I created reference models such as the 'Regions-Fullnames'and 'DIM-AgeGroup' table.
 
 ![image1](https://github.com/myfriendtae/global_population_analysis/blob/master/screenshot1.png?raw=true)
 
 ### Storing Data
-By disabling load, it creates larger free memory space, so I have disabled all tables apart from the Population-Combined, DIM and FACT tables.
+By disabling load, I can create extra free memory space. In this case, I have disabled all tables apart from the Population-Combined, DIM and FACT tables.
 
 ## Data modeling
 Connecting two DIM tables and one FACT table as shown in the picture, there are three aspects to consider: cardinarlity, cross filter direction and active properties. With Data Analysis Expressions(DAX), I also created columns and measures which can be useful for visualisation.
